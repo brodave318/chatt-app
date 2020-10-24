@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Rock+Salt&family=Rubik:wght@300;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Rubik', sans-serif; */
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}

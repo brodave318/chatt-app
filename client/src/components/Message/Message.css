@@ -1,0 +1,78 @@
+.message__container {
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.message__container.toEnd {
+  text-align: end;
+  padding-right: 20px;
+}
+
+/* Moment css */
+time {
+  display: block;
+  padding: 0 20px;
+}
+
+.message__containerName {
+  display: inline-block;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 14px;
+}
+
+.message__containerName.extra-padRight {
+  padding-right: 10px;
+}
+
+.message__containerName.extra-padLeft {
+  padding-left: 10px;
+}
+
+.message__containerMessageBox {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #fff;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.message__containerMessageBox.backgroundBlue {
+  background: #2979ff;
+}
+
+.message__containerMessageBox.backgroundLite {
+  background: #f3f3f3;
+  color: #353535;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  padding: 5px 0px;
+}
+
+.message__containerMessageBox.colorDark {
+  color: #353535;
+  padding: 10px 0px;
+}
+
+.colorWhite {
+}
+
+.colorDark {
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLite {
+  background: #f3f3f3;
+}
